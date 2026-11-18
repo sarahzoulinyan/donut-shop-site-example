@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donut Delícia - Os melhores donuts</title>
+<title>Donut Delight - The best donuts</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
@@ -274,11 +274,11 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <button class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
 <nav id="mainNav"><ul>
 <li><a onclick="navegar('home')" class="active" data-page="home">Home</a></li>
-<li><a onclick="navegar('quem-somos')" data-page="quem-somos">Quem Somos</a></li>
-<li><a onclick="navegar('nossos-produtos')" data-page="nossos-produtos">Nossos Produtos</a></li>
-<li><a onclick="navegar('nossas-lojas')" data-page="nossas-lojas">Nossas Lojas</a></li>
-<li><a onclick="navegar('trabalhe-conosco')" data-page="trabalhe-conosco">Trabalhe Conosco</a></li>
-<li><a class="btn-header" style="display:inline-block;width:auto;margin:0">Minha Conta</a></li>
+<li><a onclick="navegar('quem-somos')" data-page="quem-somos">About Us</a></li>
+<li><a onclick="navegar('nossos-produtos')" data-page="nossos-produtos">Our Products</a></li>
+<li><a onclick="navegar('nossas-lojas')" data-page="nossas-lojas">Our Stores</a></li>
+<li><a onclick="navegar('trabalhe-conosco')" data-page="trabalhe-conosco">Careers</a></li>
+<li><a class="btn-header" style="display:inline-block;width:auto;margin:0">My Account</a></li>
 </ul></nav>
 </header>
 
@@ -288,12 +288,12 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <div class="deco-circle deco-circle-1"></div>
 <div class="deco-circle deco-circle-2"></div>
 <div class="hero-content">
-<div class="tag"><i class="fas fa-star" style="margin-right:6px;color:#ffd700"></i> Destaque da semana</div>
-<h1 id="hero-title">Donuts<br><span class="highlight">fresquinhos</span><br>todo dia</h1>
-<p>Feitos com amor. Para você.</p>
+<div class="tag"><i class="fas fa-star" style="margin-right:6px;color:#ffd700"></i> Featured this week</div>
+<h1 id="hero-title">Fresh<br><span class="highlight">donuts</span><br>every day</h1>
+<p>Made with love. For you.</p>
 <div class="hero-buttons">
-<a class="hero-btn hero-btn-primary" onclick="navegar('nossas-lojas')"><i class="fas fa-store"></i> Encontre uma loja</a>
-<a class="hero-btn hero-btn-secondary" onclick="navegar('nossos-produtos')"><i class="fas fa-donut"></i> Ver cardápio</a>
+<a class="hero-btn hero-btn-primary" onclick="navegar('nossas-lojas')"><i class="fas fa-store"></i> Find a store</a>
+<a class="hero-btn hero-btn-secondary" onclick="navegar('nossos-produtos')"><i class="fas fa-donut"></i> View menu</a>
 </div>
 </div>
 <div class="hero-image">
@@ -311,11 +311,11 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 </section>
 
 <section class="produtos-section">
-<h2>Nossos Produtos</h2>
+<h2>Our Products</h2>
 <div class="tabs-container">
 <button class="tab-btn active" onclick="mudarAba('donuts',this)"><i class="fas fa-circle" style="color:#d4883a"></i> DONUTS</button>
-<button class="tab-btn" onclick="mudarAba('bebidas',this)"><i class="fas fa-mug-hot" style="color:#6f4e37"></i> BEBIDAS</button>
-<button class="tab-btn" onclick="mudarAba('especiais',this)"><i class="fas fa-crown" style="color:#ffd700"></i> ESPECIAIS</button>
+<button class="tab-btn" onclick="mudarAba('bebidas',this)"><i class="fas fa-mug-hot" style="color:#6f4e37"></i> DRINKS</button>
+<button class="tab-btn" onclick="mudarAba('especiais',this)"><i class="fas fa-crown" style="color:#ffd700"></i> SPECIALS</button>
 <button class="tab-btn" onclick="mudarAba('combos',this)"><i class="fas fa-gift" style="color:#e07b1a"></i> COMBOS</button>
 </div>
 <div class="carrossel-wrapper">
@@ -323,15 +323,15 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <div class="carrossel-grid" id="grid-produtos"></div>
 <button class="arrow-dir" onclick="scrollCarrossel(1)" aria-label="Rolar para direita"><i class="fas fa-chevron-right"></i></button>
 </div>
-<a class="btn-ver-mais" onclick="navegar('nossos-produtos')">Ver Todos os Produtos</a>
+<a class="btn-ver-mais" onclick="navegar('nossos-produtos')">View All Products</a>
 </section>
 
 <section class="classico-section">
 <div class="classico-img"></div>
 <div class="classico-content">
-<h2>O Clássico</h2>
-<p>Nosso Donut Original transforma qualquer ocasião em algo especial. Leve, macio e irresistível, ele derrete na boca e é perfeito para criar momentos inesquecíveis. Feito fresquinho todos os dias com ingredientes de primeira qualidade.</p>
-<a class="btn-saiba-mais">Saiba Mais</a>
+<h2>The Classic</h2>
+<p>Our Original Donut makes every occasion special. Light, soft, and irresistible, it melts in your mouth and creates unforgettable moments. Freshly made every day with premium ingredients.</p>
+<a class="btn-saiba-mais">Learn More</a>
 <div class="classico-pontos"></div>
 </div>
 </section>
@@ -341,38 +341,38 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <div id="page-quem-somos" class="pagina">
 <section class="pagina-quem-somos">
 <div class="quem-somos-hero">
-<h1><i class="fas fa-heart" style="color:#ff6b6b"></i> Quem Somos</h1>
-<p>Conheça a história por trás dos donuts mais deliciosos do Brasil e a paixão que nos move todos os dias.</p>
+<h1><i class="fas fa-heart" style="color:#ff6b6b"></i> About Us</h1>
+<p>Discover the story behind our delicious donuts and the passion that inspires us every day.</p>
 <div class="hero-stats">
-<div class="stat-item"><span class="numero" data-count="2020">2020</span><span class="label">Fundação</span></div>
-<div class="stat-item"><span class="numero" data-count="50">50+</span><span class="label">Receitas Exclusivas</span></div>
-<div class="stat-item"><span class="numero" data-count="15">15+</span><span class="label">Lojas pelo Brasil</span></div>
-<div class="stat-item"><span class="numero" data-count="500k">500K+</span><span class="label">Clientes Felizes</span></div>
+<div class="stat-item"><span class="numero" data-count="2020">2020</span><span class="label">Founded</span></div>
+<div class="stat-item"><span class="numero" data-count="50">50+</span><span class="label">Exclusive Recipes</span></div>
+<div class="stat-item"><span class="numero" data-count="15">15+</span><span class="label">Stores Across Brazil</span></div>
+<div class="stat-item"><span class="numero" data-count="500k">500K+</span><span class="label">Happy Customers</span></div>
 </div>
 <div class="dots-bg"></div>
 </div>
 <div class="quem-somos-conteudo">
-<div class="section-titulo"><h2>Nossa Jornada</h2><p>Cada passo foi dado com muito amor e dedicação</p></div>
+<div class="section-titulo"><h2>Our Journey</h2><p>Every step was taken with love and dedication</p></div>
 <div class="timeline">
-<div class="timeline-item"><span class="ano">2020</span><h4>O Começo de Tudo</h4><p>A Donut Delícia nasceu em uma pequena cozinha com um sonho: levar felicidade através dos donuts mais deliciosos do Brasil.</p></div>
-<div class="timeline-item"><span class="ano">2021</span><h4>Primeira Loja Física</h4><p>Inauguramos nossa primeira loja na Avenida Paulista, conquistando o coração dos paulistanos com nossos donuts fresquinhos.</p></div>
-<div class="timeline-item"><span class="ano">2022</span><h4>Expansão Nacional</h4><p>Abrimos filiais no Rio de Janeiro e Belo Horizonte, levando nosso sabor único para mais brasileiros.</p></div>
-<div class="timeline-item"><span class="ano">2023</span><h4>Inovação e Sustentabilidade</h4><p>Lançamos nossa linha de embalagens sustentáveis e novas receitas exclusivas que se tornaram hits.</p></div>
-<div class="timeline-item"><span class="ano">2024</span><h4>Reconhecimento Nacional</h4><p>Fomos eleitos a melhor rede de donuts do Brasil pelo Guia Gastronômico, um marco em nossa trajetória.</p></div>
+<div class="timeline-item"><span class="ano">2020</span><h4>Where It All Began</h4><p>Donut Delight began in a small kitchen with a dream: to bring happiness through delicious donuts.</p></div>
+<div class="timeline-item"><span class="ano">2021</span><h4>First Store</h4><p>We opened our first store on Paulista Avenue and won the city over with freshly made donuts.</p></div>
+<div class="timeline-item"><span class="ano">2022</span><h4>National Expansion</h4><p>We opened locations in Rio de Janeiro and Belo Horizonte, bringing our unique flavors to more people.</p></div>
+<div class="timeline-item"><span class="ano">2023</span><h4>Innovation and Sustainability</h4><p>We launched sustainable packaging and exclusive new recipes that quickly became favorites.</p></div>
+<div class="timeline-item"><span class="ano">2024</span><h4>National Recognition</h4><p>A leading food guide named us the country’s best donut chain, a milestone in our journey.</p></div>
 </div>
-<div class="section-titulo" style="margin-top:60px"><h2>Nossos Valores</h2><p>O que nos move e nos faz únicos</p></div>
+<div class="section-titulo" style="margin-top:60px"><h2>Our Values</h2><p>What drives us and makes us unique</p></div>
 <div class="valores-grid">
-<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-heart"></i></div><h4>Paixão</h4><p>Fazemos tudo com amor e dedicação, desde a escolha dos ingredientes até o atendimento ao cliente.</p></div>
-<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-star"></i></div><h4>Qualidade</h4><p>Utilizamos apenas ingredientes premium e receitas testadas para garantir o melhor sabor em cada mordida.</p></div>
-<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-lightbulb"></i></div><h4>Inovação</h4><p>Estamos sempre criando novas receitas e surpreendendo nossos clientes com sabores únicos e especiais.</p></div>
-<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-leaf"></i></div><h4>Sustentabilidade</h4><p>Comprometidos com o planeta, utilizamos embalagens sustentáveis e práticas responsáveis em toda nossa cadeia.</p></div>
+<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-heart"></i></div><h4>Passion</h4><p>We put love and care into everything, from selecting ingredients to serving our customers.</p></div>
+<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-star"></i></div><h4>Quality</h4><p>We use premium ingredients and carefully tested recipes for exceptional flavor in every bite.</p></div>
+<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-lightbulb"></i></div><h4>Innovation</h4><p>We are always creating new recipes and surprising customers with unique flavors.</p></div>
+<div class="valor-card"><div class="icon-wrapper"><i class="fas fa-leaf"></i></div><h4>Sustainability</h4><p>We care for the planet with sustainable packaging and responsible practices throughout our supply chain.</p></div>
 </div>
-<div class="section-titulo" style="margin-top:60px"><h2>Nosso Time</h2><p>Pessoas apaixonadas que fazem a diferença</p></div>
+<div class="section-titulo" style="margin-top:60px"><h2>Our Team</h2><p>Passionate people who make a difference</p></div>
 <div class="equipe-grid">
-<div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Ana Silva</h4><span class="cargo">CEO & Fundadora</span></div>
+<div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Ana Silva</h4><span class="cargo">CEO & Founder</span></div>
 <div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Carlos Santos</h4><span class="cargo">Chef Pâtissier</span></div>
-<div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Mariana Costa</h4><span class="cargo">Gerente de Operações</span></div>
-<div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Rafael Oliveira</h4><span class="cargo">Diretor de Marketing</span></div>
+<div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Mariana Costa</h4><span class="cargo">Operations Manager</span></div>
+<div class="membro-card"><div class="avatar"><i class="fas fa-user-circle"></i></div><h4>Rafael Oliveira</h4><span class="cargo">Marketing Director</span></div>
 </div>
 </div>
 </section>
@@ -381,11 +381,11 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <!-- NOSSOS PRODUTOS -->
 <div id="page-nossos-produtos" class="pagina">
 <section class="pagina-produtos">
-<h1><i class="fas fa-donut" style="color:var(--vermelho-principal)"></i> Nossos Produtos</h1>
-<p class="subtitulo">Conheça nossa seleção de donuts e bebidas feitos com ingredientes de primeira qualidade.</p>
+<h1><i class="fas fa-donut" style="color:var(--vermelho-principal)"></i> Our Products</h1>
+<p class="subtitulo">Explore our selection of donuts and drinks made with premium ingredients.</p>
 <h2 class="categoria-titulo"><i class="fas fa-circle" style="color:#d4883a;font-size:1.2rem"></i> Donuts</h2><div class="grid-produtos" id="grid-donuts"></div>
-<h2 class="categoria-titulo"><i class="fas fa-mug-hot" style="color:#6f4e37;font-size:1.2rem"></i> Bebidas</h2><div class="grid-produtos" id="grid-bebidas"></div>
-<h2 class="categoria-titulo"><i class="fas fa-crown" style="color:#ffd700;font-size:1.2rem"></i> Especiais</h2><div class="grid-produtos" id="grid-especiais"></div>
+<h2 class="categoria-titulo"><i class="fas fa-mug-hot" style="color:#6f4e37;font-size:1.2rem"></i> Drinks</h2><div class="grid-produtos" id="grid-bebidas"></div>
+<h2 class="categoria-titulo"><i class="fas fa-crown" style="color:#ffd700;font-size:1.2rem"></i> Specials</h2><div class="grid-produtos" id="grid-especiais"></div>
 <h2 class="categoria-titulo"><i class="fas fa-gift" style="color:#e07b1a;font-size:1.2rem"></i> Combos</h2><div class="grid-produtos" id="grid-combos"></div>
 </section>
 </div>
@@ -393,15 +393,15 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <!-- NOSSAS LOJAS -->
 <div id="page-nossas-lojas" class="pagina">
 <section class="pagina-lojas">
-<h1><i class="fas fa-store" style="color:var(--vermelho-principal)"></i> Nossas Lojas</h1>
-<p class="subtitulo">Encontre a loja mais próxima de você e venha experimentar nossos donuts fresquinhos.</p>
+<h1><i class="fas fa-store" style="color:var(--vermelho-principal)"></i> Our Stores</h1>
+<p class="subtitulo">Find your nearest store and come try our freshly made donuts.</p>
 <div class="grid-lojas">
-<div class="card-loja"><i class="fas fa-map-pin"></i><h3>Loja Paulista</h3><p>Avenida Paulista, 1500<br>Bela Vista - São Paulo/SP</p><span class="horario"><i class="far fa-clock"></i> 8h às 22h</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-1111</span></div>
-<div class="card-loja"><i class="fas fa-map-pin"></i><h3>Loja Shopping Morumbi</h3><p>Av. Roque Petroni Júnior, 1089<br>Morumbi - São Paulo/SP</p><span class="horario"><i class="far fa-clock"></i> 10h às 22h</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-2222</span></div>
-<div class="card-loja"><i class="fas fa-map-pin"></i><h3>Loja Vila Olímpia</h3><p>Rua Fidêncio Ramos, 302<br>Vila Olímpia - São Paulo/SP</p><span class="horario"><i class="far fa-clock"></i> 7h às 20h</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-3333</span></div>
-<div class="card-loja"><i class="fas fa-truck"></i><h3>Delivery</h3><p>Entregamos para toda a região metropolitana de São Paulo</p><span class="horario"><i class="far fa-clock"></i> 24 horas</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-8888</span></div>
+<div class="card-loja"><i class="fas fa-map-pin"></i><h3>Paulista Store</h3><p>Avenida Paulista, 1500<br>Bela Vista - São Paulo/SP</p><span class="horario"><i class="far fa-clock"></i> 8h às 22h</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-1111</span></div>
+<div class="card-loja"><i class="fas fa-map-pin"></i><h3>Morumbi Mall Store</h3><p>Av. Roque Petroni Júnior, 1089<br>Morumbi - São Paulo/SP</p><span class="horario"><i class="far fa-clock"></i> 10h às 22h</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-2222</span></div>
+<div class="card-loja"><i class="fas fa-map-pin"></i><h3>Vila Olímpia Store</h3><p>Rua Fidêncio Ramos, 302<br>Vila Olímpia - São Paulo/SP</p><span class="horario"><i class="far fa-clock"></i> 7h às 20h</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-3333</span></div>
+<div class="card-loja"><i class="fas fa-truck"></i><h3>Delivery</h3><p>We deliver throughout the São Paulo metropolitan area</p><span class="horario"><i class="far fa-clock"></i> 24 hours</span><span class="destaque"><i class="fas fa-phone"></i> (11) 99999-8888</span></div>
 </div>
-<div class="mapa-section"><h2><i class="fas fa-map-marked-alt" style="color:var(--vermelho-principal)"></i> Encontre a Loja Mais Próxima</h2><div class="mapa-placeholder"><i class="fas fa-map" style="font-size:3rem;margin-right:15px"></i> Mapa interativo em breve</div></div>
+<div class="mapa-section"><h2><i class="fas fa-map-marked-alt" style="color:var(--vermelho-principal)"></i> Find the Nearest Store</h2><div class="mapa-placeholder"><i class="fas fa-map" style="font-size:3rem;margin-right:15px"></i> Interactive map coming soon</div></div>
 </section>
 </div>
 
@@ -410,37 +410,37 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <section class="pagina-trabalhe">
 <div class="trabalhe-hero">
 <span class="donut-icon">🍩</span>
-<h1>Faça parte do time <span>Donut Delícia</span></h1>
-<p>Junte-se a nós e faça parte de uma equipe apaixonada por criar momentos de felicidade através dos donuts mais deliciosos do Brasil.</p>
-<button class="btn-grande" onclick="document.getElementById('vagas-section').scrollIntoView({behavior:'smooth'})"><i class="fas fa-rocket"></i> Ver Vagas Disponíveis</button>
+<h1>Join the <span>Donut Delight</span> team</h1>
+<p>Join a team passionate about creating joyful moments through delicious donuts.</p>
+<button class="btn-grande" onclick="document.getElementById('vagas-section').scrollIntoView({behavior:'smooth'})"><i class="fas fa-rocket"></i> View Open Positions</button>
 </div>
 <div class="trabalhe-beneficios">
-<h2>Por que trabalhar conosco?</h2>
-<p class="sub">Oferecemos um ambiente incrível e benefícios que fazem a diferença</p>
+<h2>Why work with us?</h2>
+<p class="sub">We offer a great workplace and meaningful benefits</p>
 <div class="beneficios-grid">
-<div class="beneficio-card"><div class="icon"><i class="fas fa-heart"></i></div><h4>Ambiente Acolhedor</h4><p>Um espaço onde você se sente em casa, com uma equipe unida e que valoriza cada colaborador.</p></div>
-<div class="beneficio-card"><div class="icon"><i class="fas fa-graduation-cap"></i></div><h4>Desenvolvimento</h4><p>Oportunidades de crescimento e treinamentos para que você possa evoluir profissionalmente.</p></div>
-<div class="beneficio-card"><div class="icon"><i class="fas fa-coffee"></i></div><h4>Donuts de Graça</h4><p>Sim, você pode comer nossos deliciosos donuts todos os dias! Um dos melhores benefícios daqui.</p></div>
-<div class="beneficio-card"><div class="icon"><i class="fas fa-calendar-check"></i></div><h4>Horários Flexíveis</h4><p>Trabalhamos com horários flexíveis para que você possa equilibrar vida pessoal e profissional.</p></div>
-<div class="beneficio-card"><div class="icon"><i class="fas fa-hand-holding-heart"></i></div><h4>Programas de Bem-Estar</h4><p>Oferecemos suporte para sua saúde mental e física, porque sua felicidade é importante para nós.</p></div>
-<div class="beneficio-card"><div class="icon"><i class="fas fa-users"></i></div><h4>Eventos e Confraternizações</h4><p>Festas, happy hours e eventos especiais para celebrar nossas conquistas juntos.</p></div>
+<div class="beneficio-card"><div class="icon"><i class="fas fa-heart"></i></div><h4>Welcoming Workplace</h4><p>A place where you feel at home, supported by a close-knit team that values every person.</p></div>
+<div class="beneficio-card"><div class="icon"><i class="fas fa-graduation-cap"></i></div><h4>Growth</h4><p>Growth opportunities and training to help you advance professionally.</p></div>
+<div class="beneficio-card"><div class="icon"><i class="fas fa-coffee"></i></div><h4>Free Donuts</h4><p>Yes, you can enjoy our delicious donuts every day—one of our favorite benefits.</p></div>
+<div class="beneficio-card"><div class="icon"><i class="fas fa-calendar-check"></i></div><h4>Flexible Hours</h4><p>Flexible schedules help you balance work and personal life.</p></div>
+<div class="beneficio-card"><div class="icon"><i class="fas fa-hand-holding-heart"></i></div><h4>Wellness Programs</h4><p>We support your mental and physical well-being because your happiness matters.</p></div>
+<div class="beneficio-card"><div class="icon"><i class="fas fa-users"></i></div><h4>Team Events</h4><p>Parties, happy hours, and special events let us celebrate our achievements together.</p></div>
 </div>
 </div>
 <div class="vagas-section" id="vagas-section">
 <div class="container">
-<h2>Vagas Disponíveis</h2>
-<p class="sub">Encontre a oportunidade que combina com você</p>
-<div class="vaga-card"><div class="vaga-info"><h4>🧑‍🍳 Pâtissier / Confeiteiro</h4><div class="local"><i class="fas fa-map-marker-alt"></i> São Paulo - SP</div></div><span class="vaga-tag">Efetivo</span><button class="btn-candidatar">Candidatar-se</button></div>
-<div class="vaga-card"><div class="vaga-info"><h4>👨‍💼 Gerente de Loja</h4><div class="local"><i class="fas fa-map-marker-alt"></i> Rio de Janeiro - RJ</div></div><span class="vaga-tag">Efetivo</span><button class="btn-candidatar">Candidatar-se</button></div>
-<div class="vaga-card"><div class="vaga-info"><h4>🧑‍🎓 Jovem Aprendiz</h4><div class="local"><i class="fas fa-map-marker-alt"></i> Belo Horizonte - MG</div></div><span class="vaga-tag">Aprendiz</span><button class="btn-candidatar">Candidatar-se</button></div>
-<div class="vaga-card"><div class="vaga-info"><h4>📦 Entregador / Motoboy</h4><div class="local"><i class="fas fa-map-marker-alt"></i> São Paulo - SP</div></div><span class="vaga-tag">Freelancer</span><button class="btn-candidatar">Candidatar-se</button></div>
-<div class="vaga-card"><div class="vaga-info"><h4>📱 Social Media / Marketing</h4><div class="local"><i class="fas fa-map-marker-alt"></i> Remoto</div></div><span class="vaga-tag">Home Office</span><button class="btn-candidatar">Candidatar-se</button></div>
+<h2>Open Positions</h2>
+<p class="sub">Find the opportunity that fits you</p>
+<div class="vaga-card"><div class="vaga-info"><h4>🧑‍🍳 Pâtissier / Pastry Chef</h4><div class="local"><i class="fas fa-map-marker-alt"></i> São Paulo - SP</div></div><span class="vaga-tag">Full-time</span><button class="btn-candidatar">Apply</button></div>
+<div class="vaga-card"><div class="vaga-info"><h4>👨‍💼 Store Manager</h4><div class="local"><i class="fas fa-map-marker-alt"></i> Rio de Janeiro - RJ</div></div><span class="vaga-tag">Full-time</span><button class="btn-candidatar">Apply</button></div>
+<div class="vaga-card"><div class="vaga-info"><h4>🧑‍🎓 Apprentice</h4><div class="local"><i class="fas fa-map-marker-alt"></i> Belo Horizonte - MG</div></div><span class="vaga-tag">Apprentice</span><button class="btn-candidatar">Apply</button></div>
+<div class="vaga-card"><div class="vaga-info"><h4>📦 Delivery Rider</h4><div class="local"><i class="fas fa-map-marker-alt"></i> São Paulo - SP</div></div><span class="vaga-tag">Freelancer</span><button class="btn-candidatar">Apply</button></div>
+<div class="vaga-card"><div class="vaga-info"><h4>📱 Social Media / Marketing</h4><div class="local"><i class="fas fa-map-marker-alt"></i> Remote</div></div><span class="vaga-tag">Home Office</span><button class="btn-candidatar">Apply</button></div>
 </div>
 </div>
 <div class="trabalhe-cta">
-<h2>Venha fazer parte do nosso time!</h2>
-<p>Envie seu currículo e venha criar momentos de felicidade com a gente.</p>
-<button class="btn-cta" onclick="alert('📧 Envie seu currículo para: carreiras@donutdelicia.com.br')"><i class="fas fa-paper-plane"></i> Enviar Currículo</button>
+<h2>Come join our team!</h2>
+<p>Send your résumé and help us create moments of happiness.</p>
+<button class="btn-cta" onclick="alert('📧 Send your résumé to: carreiras@donutdelicia.com.br')"><i class="fas fa-paper-plane"></i> Send Résumé</button>
 </div>
 </section>
 </div>
@@ -449,21 +449,21 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 <footer>
 <div class="footer-logo"><h2>Donut <span>Delícia</span></h2></div>
 <div class="footer-nav">
-<a onclick="navegar('quem-somos')">Quem Somos</a>
-<a onclick="navegar('nossos-produtos')">Nossos Produtos</a>
-<a onclick="navegar('nossas-lojas')">Nossas Lojas</a>
-<a onclick="navegar('trabalhe-conosco')">Trabalhe Conosco</a>
-<a>Minha Conta</a>
+<a onclick="navegar('quem-somos')">About Us</a>
+<a onclick="navegar('nossos-produtos')">Our Products</a>
+<a onclick="navegar('nossas-lojas')">Our Stores</a>
+<a onclick="navegar('trabalhe-conosco')">Careers</a>
+<a>My Account</a>
 </div>
 <div class="footer-divider"></div>
-<div class="footer-links"><a>Política de Privacidade</a><a>Definir Cookies</a></div>
+<div class="footer-links"><a>Privacy Policy</a><a>Cookie Settings</a></div>
 <div class="footer-socials">
 <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
 <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
 <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
 <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
 </div>
-<div class="footer-copyright">2026 © Copyright Donut Delícia Brasil | Todos os direitos reservados</div>
+<div class="footer-copyright">2026 © Copyright Donut Delight Brasil | All rights reserved</div>
 <div class="footer-dots"></div>
 </footer>
 
@@ -471,38 +471,38 @@ footer{background-color:#fff;padding:60px 5% 20px;text-align:center}
 // ===== BANCO DE DADOS =====
 const produtos = {
     donuts: [
-        {nome:'Original Glazed',desc:'O clássico que derrete na boca.',img:'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,50'},
-        {nome:'Chocolate Belga',desc:'Cobertura de chocolate belga intenso.',img:'https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,90'},
-        {nome:'Choco Confetes',desc:'Chocolate com confeitos coloridos.',img:'https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=400&auto=format&fit=crop',preco:'R$ 9,50'},
-        {nome:'Morango com Confetes',desc:'Cobertura de morango com confeitos.',img:'https://images.unsplash.com/photo-1556913396-7a3c459ef68e?q=80&w=400&auto=format&fit=crop',preco:'R$ 9,50'},
-        {nome:'Donut de Baunilha',desc:'Cobertura de baunilha com granulado.',img:'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,90'},
-        {nome:'Donut de Caramelo',desc:'Cobertura de caramelo salgado.',img:'https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,50'}
+        {nome:'Original Glazed',desc:'The classic that melts in your mouth.',img:'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,50'},
+        {nome:'Belgian Chocolate',desc:'Rich Belgian chocolate glaze.',img:'https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,90'},
+        {nome:'Chocolate Sprinkles',desc:'Chocolate with colorful sprinkles.',img:'https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=400&auto=format&fit=crop',preco:'R$ 9,50'},
+        {nome:'Strawberry Sprinkles',desc:'Strawberry glaze with sprinkles.',img:'https://images.unsplash.com/photo-1556913396-7a3c459ef68e?q=80&w=400&auto=format&fit=crop',preco:'R$ 9,50'},
+        {nome:'Vanilla Donut',desc:'Vanilla glaze with sprinkles.',img:'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,90'},
+        {nome:'Caramel Donut',desc:'Salted caramel glaze.',img:'https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,50'}
     ],
     bebidas: [
-        {nome:'Café Especial',desc:'Café arábica torrado na hora.',img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&auto=format&fit=crop',preco:'R$ 6,00'},
-        {nome:'Chocolate Quente',desc:'Chocolate cremoso com marshmallows.',img:'https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,00'},
-        {nome:'Milkshake Baunilha',desc:'Milkshake gelado e cremoso.',img:'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=400&auto=format&fit=crop',preco:'R$ 12,00'},
-        {nome:'Suco Natural',desc:'Suco de frutas frescas.',img:'https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,50'},
-        {nome:'Cappuccino',desc:'Cappuccino cremoso com canela.',img:'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,00'}
+        {nome:'Specialty Coffee',desc:'Freshly roasted Arabica coffee.',img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&auto=format&fit=crop',preco:'R$ 6,00'},
+        {nome:'Hot Chocolate',desc:'Creamy hot chocolate with marshmallows.',img:'https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,00'},
+        {nome:'Vanilla Milkshake',desc:'Cold and creamy milkshake.',img:'https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=400&auto=format&fit=crop',preco:'R$ 12,00'},
+        {nome:'Fresh Juice',desc:'Fresh fruit juice.',img:'https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,50'},
+        {nome:'Cappuccino',desc:'Creamy cappuccino with cinnamon.',img:'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=400&auto=format&fit=crop',preco:'R$ 7,00'}
     ],
     especiais: [
-        {nome:'Red Velvet',desc:'Massa vermelha com cream cheese.',img:'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400&auto=format&fit=crop',preco:'R$ 10,00'},
-        {nome:'Donut de Limão',desc:'Cobertura de limão siciliano.',img:'https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,50'},
-        {nome:'Donut de Coco',desc:'Coco ralado com leite condensado.',img:'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=400&auto=format&fit=crop',preco:'R$ 9,00'},
-        {nome:'Donut de Pistache',desc:'Cobertura de pistache com pedaços da noz.',img:'https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=400&auto=format&fit=crop',preco:'R$ 11,00'}
+        {nome:'Red Velvet',desc:'Red velvet dough with cream cheese.',img:'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400&auto=format&fit=crop',preco:'R$ 10,00'},
+        {nome:'Lemon Donut',desc:'Sicilian lemon glaze.',img:'https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=400&auto=format&fit=crop',preco:'R$ 8,50'},
+        {nome:'Coconut Donut',desc:'Shredded coconut with condensed milk.',img:'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=400&auto=format&fit=crop',preco:'R$ 9,00'},
+        {nome:'Pistachio Donut',desc:'Pistachio glaze with chopped nuts.',img:'https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=400&auto=format&fit=crop',preco:'R$ 11,00'}
     ],
     combos: [
-        {nome:'Combo Duplo',desc:'2 donuts + 1 café especial.',img:'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=400&auto=format&fit=crop',preco:'R$ 15,90'},
-        {nome:'Combo Família',desc:'6 donuts + 2 bebidas.',img:'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400&auto=format&fit=crop',preco:'R$ 39,90'},
-        {nome:'Combo Café',desc:'3 donuts + 1 café + 1 suco.',img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&auto=format&fit=crop',preco:'R$ 22,90'}
+        {nome:'Double Combo',desc:'2 donuts + 1 specialty coffee.',img:'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=400&auto=format&fit=crop',preco:'R$ 15,90'},
+        {nome:'Family Combo',desc:'6 donuts + 2 drinks.',img:'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400&auto=format&fit=crop',preco:'R$ 39,90'},
+        {nome:'Coffee Combo',desc:'3 donuts + 1 coffee + 1 juice.',img:'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400&auto=format&fit=crop',preco:'R$ 22,90'}
     ]
 };
 
 // ===== SLIDES =====
 const slides = [
-    {titulo:'Donuts<br><span class="highlight">fresquinhos</span><br>todo dia', imagem:'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop', classe:'hero-vermelho', cor:'vermelho'},
-    {titulo:'Sabor único<br>em cada<br><span class="highlight">mordida!</span>', imagem:'https://images.unsplash.com/photo-1527904324834-3bda86da6771?q=80&w=800&auto=format&fit=crop', classe:'hero-verde', cor:'verde'},
-    {titulo:'Momentos<br>especiais com<br><span class="highlight">quem você ama!</span>', imagem:'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop', classe:'hero-laranja', cor:'laranja'}
+    {titulo:'Fresh<br><span class="highlight">donuts</span><br>every day', imagem:'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop', classe:'hero-vermelho', cor:'vermelho'},
+    {titulo:'Unique flavor<br>in every<br><span class="highlight">bite!</span>', imagem:'https://images.unsplash.com/photo-1527904324834-3bda86da6771?q=80&w=800&auto=format&fit=crop', classe:'hero-verde', cor:'verde'},
+    {titulo:'Special moments<br>with the people<br><span class="highlight">you love!</span>', imagem:'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop', classe:'hero-laranja', cor:'laranja'}
 ];
 
 let slideAtual = 0;
